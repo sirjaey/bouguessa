@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop Page</title>
+    <link rel="stylesheet" href="shopCss.css">
+</head>
+<body>
+    <nav class="nav">
+        <div class="nav-bar">
+            <div class="menu-list">
+                <li>SHOP</li>
+                <div class="mega-menu">
+                    <li class="dropbtn">COLLECTIONS</li>
+                    <div class="mega-menu-content">
+                      <div class="megaImg1">
+                        <img src="https://bouguessa.com/cdn/shop/files/wt_370x230_crop_center@2x.jpg?v=1677062498" alt="">
+                      </div>
+                      <div class="megaImg1">
+                        <img src="https://bouguessa.com/cdn/shop/files/image_menu_370x230_crop_center@2x.jpg?v=1662553790" alt="">
+                      </div>
+                      <div class="megaImg1">
+                        <img src="https://bouguessa.com/cdn/shop/files/bvc_370x230_crop_center@2x.jpg?v=1645105694" alt="">
+                      </div>
+                    </div>
+                </div>
+                <li>ABOUT</li>
+                <li>JOURNAL</li>
+            </div>
+
+            <div class="overlayy">
+                <div id="myNav" class="overlayyy">
+                    <p href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</p>
+                    <div class="overlayyy-content">
+                        <a href="shopPage.html">SHOP</a>
+                        <hr>
+                        <a href="#">COLLECTIONS</a>
+                        <hr>
+                        <a href="#">ABOUT</a>
+                        <hr>
+                        <a href="#">JOURNAL</a>
+                        <hr>
+                        <div class="dormant">
+                            <li>Retailers</li>
+                            <li>Contact</li>
+                            <li>Account</li>
+                        </div>
+                    </div>
+                </div>
+                <p href="javascript:void(0)" class="icon" onclick="openNav()" ><img src="img/hamburger.svg" alt=""></p>
+            </div>
+
+            <div class="menu">
+                <a href="index.html"><img src="https://bouguessa.com/cdn/shop/files/logo-bouguessa_140x.png?v=1613712243" alt=""></a>
+            </div>
+            <div class="menu-left">
+                <select name="" id="currency">
+                    <option value="">USD</option>
+                    <option value="">GBP</option>
+                    <option value="">EUR</option>
+                    <option value="">AED</option>
+                </select>
+                <div class="iconss">
+                    <img src="img/heart.svg" id="heart" alt="">
+                    <a href="loginPage.html"><img src="img/profile.svg" alt=""></a>
+                    <img src="img/search.svg" id="search" alt="search">
+                </div>
+                <div class="cartPage">
+                    <div id="myNavv" class="cart">
+                        <div class="cart-top">
+                            <div class="cart-li">
+                                <li>CART</li>
+                            </div>
+                            <div>
+                                <p href="javascript:void(0)" class="closebtnn" onclick="closeNavv()">&times;</p>
+                            </div>
+                        </div>
+                        <div class="cart-content">
+                            
+                            
+                            </div>
+                        </div>
+                    </div>
+                    <p href="javascript:void(0)" class="iconn iconss" onclick="openNavv()" ><img src="img/bag.svg" alt=""></p>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="mid-nav">
+        <p>ALL</p>
+    </div>
+
+    <div class="bottom-nav">
+        <div class="bottom-nav1">
+
+        </div>
+        <div class="bottom-nav2">
+            <div class="dropdownn">
+                <button onclick="myFunction()" class="dropbtnn">SORT &#9661;</button>
+                <div id="myDropdownn" class="dropdownn-content">
+                  <a href="">BEST SELLING</a>
+                  <a href="">PRICE, LOW TO HIGH</a>
+                  <a href="">DATE, OLD TO NEW</a>
+                  <a href="">DATE, NEW TO OLD</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="mobileClickMega">
+        <div class="bottom-navv">
+            <div class="bottom-nav1">
+                <button>FILTER</button>
+            </div>
+            <div class="bottom-nav2">
+                <div class="dropdownn">
+                    <button onclick="myFunnction()" class="dropbtnnn">SORT &#9661;</button>
+                    <div id="myDropdownnn" class="dropdownnn-content">
+                      <a href="">BEST SELLING</a>
+                      <a href="">PRICE, LOW TO HIGH</a>
+                      <a href="">DATE, OLD TO NEW</a>
+                      <a href="">DATE, NEW TO OLD</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="mobile">
+        <div>
+            <img src="https://bouguessa.com/cdn/shop/products/Bouguessa_11-2_1927_400x.jpg?v=1681680386" alt="">
+            <p>LINA LONG SHIRT DRESS</p>
+            <p>$499</p>
+        </div>
+        <div>
+            <img src="https://bouguessa.com/cdn/shop/products/Bouguessa_11-2_2183_400x.jpg?v=1678645353" alt="">
+            <p>AFREEN SHIRT</p>
+            <p>$216</p>
+        </div>
+        <div>
+            <img src="https://bouguessa.com/cdn/shop/products/Bouguessa_11-2_1649_800x.jpg?v=1679168438" alt="">
+            <p>LEA SLEEVELESS DRESS</p>
+            <p>$910</p>
+        </div>
+        <div>
+            <img src="https://bouguessa.com/cdn/shop/products/Bouguessa_11-2_2247_400x.jpg?v=1678974241" alt="">
+            <p>AFREEN SHORTS</p>
+            <p>$126</p>
+        </div>
+        <div>
+            <img src="https://bouguessa.com/cdn/shop/products/blackpetrascarf_400x.jpg?v=1676922974" alt="">
+            <p>PETRA SCARF</p>
+            <p>$349</p>
+        </div>
+        <div>
+            <img src="https://bouguessa.com/cdn/shop/products/ScreenShot2023-02-22at7.54.18AM_400x.png?v=1677081732" alt="">
+            <p>REBEA PANTS</p>
+            <p>$320</p>
+        </div>
+        <div>
+            <img src="https://bouguessa.com/cdn/shop/products/Bouguessa_11-2_2831_400x.jpg?v=1681850996" alt="">
+            <p>PETRA SARONG</p>
+            <p>$420</p>
+        </div>
+        <div>
+            <img src="https://bouguessa.com/cdn/shop/files/Bouguessa_11-2_1957_08e1b450-24c4-4f65-8fa4-6f085eeefca8_400x.jpg?v=1682624540" alt="">
+            <p>TANYA A-LINE JERSEY SKIRT</p>
+            <p>$360</p>
+        </div>
+        <div>
+            <img src="https://bouguessa.com/cdn/shop/files/Bouguessa_11-2_1632_400x.jpg?v=1682624671" alt="">
+            <p>MASHAEL WRAPPED SKIRT</p>
+            <p>$450</p>
+        </div>
+        <div>
+            <img src="https://bouguessa.com/cdn/shop/products/Bouguessa_11-2_1757_400x.jpg?v=1679168492" alt="">
+            <p>JEN CROCHET SKIRT</p>
+            <p>$320</p>
+        </div>
+        <div>
+            <img src="https://bouguessa.com/cdn/shop/files/Bouguessa_11-2_1716_400x.jpg?v=1682624866" alt="">
+            <p>LEE BAGGY PANTS</p>
+            <p>$300</p>
+        </div>
+        <div>
+            <img src="https://bouguessa.com/cdn/shop/products/Bouguessa_11-2_1806_400x.jpg?v=1681680543" alt="">
+            <p>RYU BAGGY PANTS</p>
+            <p>$490</p>
+        </div>
+    </div>
+
+    <div class="main-body">
+        <div class="main-body-left">
+            <div class="main-body-left-lists">
+                <li>CATEGORIES</li>
+                <p>Accessories</p>
+                <p>Blazers</p>
+                <p>Coats & Long Jackets</p>
+                <p>Dresses</p>
+                <p>Pants</p>
+                <p>Shirt</p>
+                <p>Skirts</p>
+                <p>Tops</p>
+
+                <div class="partt2">
+                    <li>CATEGORY</li>
+                    <P>Men</P>
+                    <p>Women</p>
+                </div>
+
+                <div class="partt2">
+                    <li>COLOR</li>
+                    <P>Beige</P>
+                    <p>Black</p>
+                    <p>Blue</p>
+                    <p>Brown</p>
+                    <p>Charcoal</p>
+                    <p>Charcoal/Dark Blue</p>
+                    <p>Cream</p>
+                    <p>Dark Blue</p>
+                    <p>Dark Green</p>
+                    <p>Green</p>
+                    <p>Greige</p>
+                    <p>Grey</p>
+                    <p>Heather Cream</p>
+                    <p>Khaki</p>
+                    <p>Light Brown</p>
+                    <p>Maroon</p>
+                    <p>Navy</p>
+                    <p>Neon yellow</p>
+                    <p>Nude</p>
+                    <p>Off White</p>
+                    <p>Pink</p>
+                    <p>Red</p>
+                    <p>Silver</p>
+                    <p>Taupe</p>
+                    <p>White</p>
+                    <p>Yellow</p>
+                </div>
+
+                <div class="partt2">
+                    <li>FIT</li>
+                    <P>Petite</P>
+                    <p>Standard</p>
+                </div>
+
+                <div class="partt2">
+                    <li>SIZE</li>
+                    <P>L</P>
+                    <p>L/XL</p>
+                    <P>M</P>
+                    <P>S</P>
+                    <P>S/M</P>
+                    <P>XL</P>
+                    <P>XS</P>
+                </div>
+            </div>
+
+        </div>
+        <div class="main-body-right">
+            <div class="products">
+                <div class="banner3" id="myProducts">
+                    <div class="banner3-img1 img-1" id="div1">
+                       <a href="productPage.html"><img src="https://bouguessa.com/cdn/shop/products/Bouguessa_11-2_2183_400x.jpg?v=1678645353" alt=""></a>
+                        <p>LINA LONG SHIRT DRESS</p>
+                        <p id="hov" class="price"></p>
+                    </div>                    
+                    <div class="banner3-img1 img-3" id="div3">
+                        <a href="productPage.html"><img src="https://bouguessa.com/cdn/shop/products/Bouguessa_11-2_1649_800x.jpg?v=1679168438" alt=""></a>
+                        <p>LEA SLEEVELESS DRESS</p>
+                        <p id="hov2" class="price"></p>
+                    </div>
+                    <div class="banner3-img1 img-2" id="div2">
+                        <img src="https://bouguessa.com/cdn/shop/products/Bouguessa_11-2_2183_400x.jpg?v=1678645353" alt="">
+                        <p>AFREEN SHIRT</p>
+                        <p id="hov1" class="price"></p>
+                    </div>
+                    <div class="banner3-img1 img-4" id="div4">
+                        <img src="https://bouguessa.com/cdn/shop/products/Bouguessa_11-2_2247_400x.jpg?v=1678974241" alt="">
+                        <p>AFREEN SHORTS</p>
+                        <p id="hov3" class="price"></p>
+                    </div>
+                </div>
+
+                <div class="part2">
+                    <div class="banner3">
+                        <div class="banner3-img1 img-5" id="div1">
+                            <img src="https://bouguessa.com/cdn/shop/products/blackpetrascarf_400x.jpg?v=1676922974" alt="">
+                            <p>PETRA SCARF</p>
+                            <p id="hov" class="price"></p>
+                        </div>
+                        <div class="banner3-img1 img-6" id="div2">
+                            <img src="https://bouguessa.com/cdn/shop/products/ScreenShot2023-02-22at7.54.18AM_400x.png?v=1677081732" alt="">
+                            <p>RABEA PANTS</p>
+                            <p id="hov1" class="price"></p>
+                        </div>
+                        <div class="banner3-img1 img-7" id="div3">
+                            <img src="https://bouguessa.com/cdn/shop/products/Bouguessa_11-2_2831_400x.jpg?v=1681850996" alt="">
+                            <p>PETRA SARONG</p>
+                            <p id="hov2" class="price"></p>
+                        </div>
+                        <div class="banner3-img1 img-8" id="div4">
+                            <img src="https://bouguessa.com/cdn/shop/files/Bouguessa_11-2_1957_08e1b450-24c4-4f65-8fa4-6f085eeefca8_400x.jpg?v=1682624540" alt="">
+                            <p>TANYA A-LINE JERSEY SKIRT
+                            </p>
+                            <p id="hov3" class="price"></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="part2">
+                    <div class="banner3">
+                        <div class="banner3-img1 img-9" id="div1">
+                            <img src="https://bouguessa.com/cdn/shop/files/Bouguessa_11-2_1632_400x.jpg?v=1682624671" alt="">
+                            <p>MASHAEL WRAPPED SKIRT</p>
+                            <p id="hov" class="price"></p>
+                        </div>
+                        <div class="banner3-img1 img-10" id="div2">
+                            <img src="https://bouguessa.com/cdn/shop/products/Bouguessa_11-2_1757_400x.jpg?v=1679168492" alt="">
+                            <p>JEN CROCHET SKIRT</p>
+                            <p id="hov1" class="price"></p>
+                        </div>
+                        <div class="banner3-img1 img-11" id="div3">
+                            <img src="https://bouguessa.com/cdn/shop/files/Bouguessa_11-2_1716_400x.jpg?v=1682624866" alt="">
+                            <p>LEE BAGGY PANTS</p>
+                            <p id="hov2" class="price"></p>
+                        </div>
+                        <div class="banner3-img1 img-12 " id="div4">
+                            <img src="https://bouguessa.com/cdn/shop/products/Bouguessa_11-2_1806_400x.jpg?v=1681680543" alt="">
+                            <p>RYU BAGGY PANTS</p>
+                            <p id="hov3" class="price"></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="part2">
+                    <div class="banner3">
+                        <div class="banner3-img1 img-13" id="div1">
+                            <img src="https://bouguessa.com/cdn/shop/products/Bouguessa_11-2_1539_6869babc-6792-4f01-8a0d-963cfc0432a7_400x.jpg?v=1677002969" alt="">
+                            <p>PETRA PRINTED PANTS</p>
+                            <p id="hov" class="price"></p>
+                        </div>
+                        <div class="banner3-img1 img-14" id="div2">
+                            <img src="https://bouguessa.com/cdn/shop/products/creamtinetowellingpantsandshirt_400x.jpg?v=1682623017" alt="">
+                            <p>TINE TOWELLING PANTS</p>
+                            <p id="hov1" class="price"></p>
+                        </div>
+                        <div class="banner3-img1 img-15" id="div3">
+                            <img src="https://bouguessa.com/cdn/shop/products/Bouguessa_11-2_1539_6869babc-6792-4f01-8a0d-963cfc0432a7_400x.jpg?v=1677002969" alt="">
+                            <p>AFREEN SHORTS</p>
+                            <p id="hov2" class="price"></p>
+                        </div>
+                        <div class="banner3-img1 img-16" id="div4">
+                            <img src="https://bouguessa.com/cdn/shop/products/Bouguessa_11-2_2867_400x.jpg?v=1681850648" alt="">
+                            <p>TINE TOWELLING SHORTS</p>
+                            <p id="hov3" class="price"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="border-line">
+        
+    </div>
+
+    <div class="Recently-Viewed">
+        <p>RECENTLY VIEWED</p>
+    </div>
+
+    <div class="recentMobile">
+        <li>HISTORY</li>
+    </div>
+
+    <div class="recentPics">
+        <div class="banner5">
+            <div class="banner3-img2 img-1" id="div10">
+                <img src="https://bouguessa.com/cdn/shop/products/Bouguessa_11-2_1927_400x.jpg?v=1681680386" alt="">
+                <p>LINA LONG SHIRT DRESS</p>
+                <p id="hov10" class="price"></p>
+            </div>
+            <div class="banner3-img2 img-2" id="div11">
+                <img src="https://bouguessa.com/cdn/shop/products/Bouguessa_11-2_2183_400x.jpg?v=1678645353" alt="">
+                <p>AFREEN SHIRT</p>
+                <p id="hov11" class="price"></p>
+            </div>
+            <div class="banner3-img2 img-3" id="div12">
+                <img src="https://bouguessa.com/cdn/shop/products/Bouguessa_11-2_1649_800x.jpg?v=1679168438" alt="">
+                <p>LEA SLEEVELESS DRESS</p>
+                <p id="hov12" class="price"></p>
+            </div>
+            <div class="banner3-img2 img-4" id="div13">
+                <img src="https://bouguessa.com/cdn/shop/products/Bouguessa_11-2_2247_400x.jpg?v=1678974241" alt="">
+                <p>AFREEN SHORTS</p>
+                <p id="hov13" class="price"></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="banner4">
+        <div class="banner4-img">
+            <img src="https://pinainstagram.b-cdn.net/bouguessa/instagram-post/3177864068170429050?optimizer=image&width=480" alt="">
+            <div class="overlay">
+                <div class="ovimg">
+                    <img src="img/insta.svg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="banner4-img">
+            <img src="https://pinainstagram.b-cdn.net/bouguessa/instagram-post/3171911529012894304?optimizer=image&width=480" alt="">
+            <div class="overlay">
+                <div class="ovimg">
+                    <img src="img/insta.svg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="banner4-img">
+            <img src="https://pinainstagram.b-cdn.net/bouguessa/instagram-post/3167771061001663394?optimizer=image&width=480" alt="">
+            <div class="overlay">
+                <div class="ovimg">
+                    <img src="img/insta.svg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="banner4-img">
+            <img src="https://pinainstagram.b-cdn.net/bouguessa/instagram-post/3146832373560009495?optimizer=image&width=480" alt="">
+            <div class="overlay">
+                <div class="ovimg">
+                    <img src="img/insta.svg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="banner4-img">
+            <img src="https://bouguessa.com/cdn/shop/products/blackpetrascarf_400x.jpg?v=1676922974" alt="">
+            <div class="overlay">
+                <div class="ovimg">
+                    <img src="img/insta.svg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="mobile-slide">
+        <div class="mobile-slider">
+            <div class="mobSlideImages img-1" id="div10">
+                <img src="https://bouguessa.com/cdn/shop/products/Bouguessa_11-2_1927_400x.jpg?v=1681680386" alt="">
+                <p>LINA LONG SHIRT DRESS</p>
+                <P>$499</P>
+                <p id="hov10" class="price"></p>
+            </div>
+            <div class="mobSlideImages img-2" id="div11">
+                <img src="https://bouguessa.com/cdn/shop/products/Bouguessa_11-2_2183_400x.jpg?v=1678645353" alt="">
+                <p>AFREEN SHIRT</p>
+                <P>$216</P>
+                <p id="hov11" class="price"></p>
+            </div>
+            <div class="mobSlideImages img-3" id="div12">
+                <img src="https://bouguessa.com/cdn/shop/products/creamtinetowellingpantsandshirt_400x.jpg?v=1682623017" alt="">
+                <p>TINE TOWELLING PANTS</p>
+                <P>$400</P>
+                <p id="hov12" class="price"></p>
+            </div>
+            <div class="mobSlideImages img-4" id="div13">
+                <img src="https://bouguessa.com/cdn/shop/products/Bouguessa_11-2_2247_400x.jpg?v=1678974241" alt="">
+                <p>AFREEN SHORTS</p>
+                <P>$320</P>
+                <p id="hov13" class="price"></p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="FOOTER">
+        <li class="j">SHOP MENU</li>
+        <li class="jj">HELP</li>
+        <li class="jj">NEWSLETTER</li>
+    </div>
+
+    <div class="footer-list">
+        <div class="foot">
+             <li>Coats & Long jackets</li>
+             <li>Skirts</li>
+             <li>Pants</li>
+        </div>
+        <div class="foot1">
+            <li>Dresses</li>
+            <li>Tops</li>
+            <li>Accessories</li>
+        </div>
+        <div class="foot11">
+            <li>Contact</li>
+            <li>My Account</li>
+            <li>Terms & Conditions</li>
+        </div>
+        <div class="foot2">
+            <li>Retailers</li>
+            <li>Privacy Policy</li>
+        </div>
+        <div class="foot3">
+            <li>Sign up for 10% off your next order*</li>
+            <input type="text" id="email" placeholder="Enter your email address">
+            <div class="butn"><button>SUBSCRIBE</button></div>
+        </div>
+    </div>
+
+    <div class="mobileFooter">
+        <div class="mobFoot">
+            <div class="mobLeft">
+                <p>SHOP MENU</p>
+                <li>Coats & Long Jackets</li>
+                <li>Dresses</li>
+                <li>Skirts</li>
+                <li>Tops</li>
+                <li>Pants</li>
+                <li>Accessories</li>
+            </div>
+            <div class="mobRight">
+                <p>HELP</p>
+                <li>Contact</li>
+                <li>Retailers</li>
+                <li>My Account</li>
+                <li>Privacy Policy</li>
+                <li>Terms & Conditions</li>
+            </div>
+        </div>
+    </div>
+
+    <div class="socialss">
+        <img src="img/facebook.svg" alt="">
+        <img src="img/insta.svg" alt="">
+        <img src="img/pintrest.svg" alt="">
+        <img src="img/22ab7b95-8ac0-46a6-b9d7-83b7b4226653.svg" alt="">
+    </div>
+
+    <div class="Boogy">
+        <p>© 2023 BOUGUESSA</p>
+    </div>
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="shop.js"></script>
+</body>
+</html>

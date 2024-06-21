@@ -1,0 +1,1082 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    font-family: lato; 
+}
+body{
+    font-family: lato, Nunito Sans,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #1c1b1b;
+    background: #fafafa;
+    line-height: 1.65;
+}
+.nav{
+    height: 60px;
+    background-color: white;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    margin-top: -60px;
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 50px;
+    color: #1C1B1B;
+}
+a{
+    text-decoration: none;
+}
+.menu{
+    margin-right: 100px;
+}
+.menu img{
+    height: auto;
+    border-style: none;
+    vertical-align: top;
+}
+.menu img:hover{
+    cursor: pointer;
+}
+.menu-list{
+    display: flex;
+    margin: -6px -21px;
+}
+.menu-list li{
+    padding: 22px 20px 20px 20px;
+    font-size: 12px;
+    font-family: lato,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #1c1b1b;
+    transition: color .2s ease-in-out;
+    letter-spacing: .2em;
+    text-transform: uppercase;
+}
+.menu-list li:hover{
+    cursor: pointer;
+}
+.menu{
+    padding: 20px;
+}
+#currency{
+    border: none;
+    font: 12px "Nunito Sans", sans-serif;
+    margin-bottom: 25px;  
+}
+#currency:hover{
+    cursor: pointer;
+}
+.menu-left{
+    display: flex;
+    padding: 0px 10px 30px 20px;
+    font-size: 12px;
+    font-family: lato,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #1c1b1b;
+    transition: color .2s ease-in-out;
+    letter-spacing: .2em;
+    text-transform: uppercase;
+}
+.iconss{
+    display: flex;
+}
+.iconss img{
+    height: 20px;
+    padding: 15px 10px 30px 20px;
+}
+.iconss img:hover{
+    cursor: pointer;
+}
+.mega-menu-content{
+    display: flex;
+    justify-content: space-evenly;
+    width: 2000px;
+    height: 350px;
+    /* margin: auto; */
+    background-color: #ffffff;
+}
+.megaImg1 img{
+    height: 220px;
+    width: 350px;
+    margin-top: 60px;
+    transform: scale(1);
+    transition: 1.5s ease;
+}
+.mega-menu{
+   
+}
+.mega-menu-content{
+    display: none;
+    position: absolute;
+    z-index: 1;
+}
+.mega-menu:hover .mega-menu-content{
+    display: flex;
+    justify-content: space-evenly;
+    width: 90%;
+    margin: auto;
+    background-color: #ffffff;
+}
+.megaImg1:hover img{
+    transform: scale(1.05);
+}
+.banner1{
+    /* position: absolute; */
+    top: 0;
+    left: 0;
+    /* width: 100%; */
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.1);
+    background-image: url(https://bouguessa.com/cdn/shop/files/BOUGUESSA_HOMEPAGE_V2_3000x1100-min_493722d0-95cd-473e-97bd-ba6e10a4f9b4_1500x.jpg?v=1678452422);
+    margin-top: 60px;
+}
+.banner1 h3{
+    text-align: center;
+    padding-top: 270px;
+    color: #fdfbfb;
+    font-size: 12px;
+    margin-top: -0.325em;
+    margin: -3.9px 0px 12px;
+    font-family: Lato, sans-serif;
+    letter-spacing: 2px;
+}
+.banner1 h6{
+    text-align: center;
+    padding-top: 10px;
+    color: #ffffff;
+    text-decoration: underline;
+    font-size: 12px;
+    margin-top: -0.325em;
+    font-family: Lato, sans-serif;
+    
+}
+.banner2{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+.banner2-left{
+    width: 50%;
+    height: 300px;
+}
+.banner2-left h6{
+    font-size: 12px;
+    text-align: center;
+    margin-top: 100px;
+    letter-spacing: 2px;
+    font-weight: 150;
+    padding-left: 30px;
+}
+.banner2-left img{
+    width: 400px;
+    height: 550px;
+    border-style: none;
+    vertical-align: top;
+    margin-left: 200px;
+    padding-top: 20px;
+}
+.banner2-right{
+    background-image: url(https://bouguessa.com/cdn/shop/products/yazdanjacket_1000x.jpg?v=1681850363);
+    /* position: absolute; */
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 900px;
+    background-size: cover;
+    background-position: center;
+}
+.banner2-left p{
+    font-size: 15px;
+    font-weight: 550;
+    margin: 20px 0 0;
+    text-align: center;
+    font-family: "Nunito Sans", sans-serif;
+    /* font-weight: 150; */
+    padding-left: 30px;
+}
+.banner2-left h5{
+    
+    text-align: center;
+    padding-left: 30px;
+    margin-bottom: -15px;
+    font-weight: 100;
+    font-size: 15px;
+}
+.banner2-left h4{
+    width: 55px;
+    line-height: 50px;
+    padding: 20px 0px 0px 370px;      
+}
+.banner3{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.banner3-img1 img{
+    width: 300px;
+    height: 450px;
+}
+.img-1 img:hover{
+    content: url("https://bouguessa.com/cdn/shop/products/Bouguessa_11-2_1917_800x.jpg?v=1681680386");
+    
+}
+.img-2 img:hover{
+    content: url("https://bouguessa.com/cdn/shop/products/Bouguessa_11-2_2188_800x.jpg?v=1678645353");
+}
+.img-3 img:hover{
+    content: url("https://bouguessa.com/cdn/shop/products/Bouguessa_11-2_1654_800x.jpg?v=1679168438");
+}
+.img-4 img:hover{
+    content: url("https://bouguessa.com/cdn/shop/products/pinkandwhitestripesafreenshirtandshorts_800x.jpg?v=1678645353");
+
+}
+.banner3-img1 p{
+    font-family: Lato,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #1c1b1b;
+    transition: color .2s ease-in-out;
+    letter-spacing: .2em;
+    font-size: 12px;
+    text-align: center;
+}
+.price{
+    transition: 0.8s;
+    color: rgb(246, 241, 241);
+    opacity: 0.8;
+}
+.btnDiv{
+    padding-top: 50px;
+}
+.buttn{
+text-align: center;
+padding: 30px;
+}
+.buttn button{
+    position: relative;
+    display: inline-block;
+    padding: 14px 28px;
+    line-height: normal;
+    border: 1px solid;
+    font-size: 13px;
+    text-align: center;
+    letter-spacing: .2em;
+    font-family: Lato,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: transparent;
+    transition: 0.5s;
+    z-index: 50;
+    transform: color .45s cubic-bezier(.785,.135,.15,.86),border .45s cubic-bezier(.785,.135,.15,.86);
+}
+.buttn button:hover{
+    /* transition: 0.5s; */
+    /* transform: color .45s cubic-bezier(rgb),border .45s cubic-bezier(.785,.135,.15,.86); */
+    cursor: pointer;
+    background-color: #e6e2e2;
+    
+}
+.banner4{
+    display: flex;
+    justify-content: space-between;
+    overflow-x: scroll;
+}
+.banner4-img{
+    position: relative;
+    width: 50%;
+    max-width: 378px;
+}
+.banner4-img img{
+    height: 378px;
+    width: 378px;
+}
+.overlay{
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    height: 378px;
+    width: 378px;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+}
+.overlay img{
+    height: 15px;
+    width: 15px;
+    /* background: whitesmoke; */
+}
+.ovimg{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 95%;
+    padding-top: 10px;
+}
+.ovimg p{
+    font-size: 12px;
+}
+.ovimg img{
+    height: 20px;
+    width: 20px;
+
+}
+.ovitxt{
+    padding-top: 125px;
+}
+.ovitxt p{
+    font-size: 12px;
+    font-family: Lato,sans-serif;
+    font-weight: 10;
+    margin: 0 auto;
+    width: 99%;
+}
+.oviBottom{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 150px;
+    margin: 0 auto;
+    width: 95%;
+}
+.oviBottom p{
+    font-size: 12px;
+    font-family: Lato,sans-serif;
+}
+.oviBottom img{
+    height: 25px;
+    width: 25px;
+}
+.overlay:hover{
+    opacity: 1;
+}
+.insta{
+    padding-top: 50px;
+}
+.insta p{
+    text-align: center;
+    /* letter-spacing: .2em; */
+    font-family: Lato,sans-serif;
+    font-weight: 50;
+    font-style: normal;
+    line-height: normal;
+    font-size: 15px;
+    padding-bottom: 20px;
+    background-color: transparent;
+}
+.pow{
+    text-align: end;
+    background-color: whitesmoke;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 12px;
+    line-height: 1;
+    text-align: right;
+    margin: 5px 0px;
+    height: 30px;
+}
+.FOOTER{
+    display: flex;
+    margin-bottom: 20px;
+    padding-top: 50px;
+}
+.FOOTER li{
+    font-size: 14px;
+    font-family: Lato,sans-serif;
+    color: #1c1b1b;
+    padding-top: 50px;
+    font-weight: 300;
+}
+.j{
+    margin: 0px 0px 0px 50px;
+}
+.jj{
+    margin-left: 430px;
+}
+.butn{
+    padding: 20px 0px;
+}
+.butn button:hover{
+    cursor: pointer;
+    background-color: #ebe9e9;
+}
+.butn button{
+        position: relative;
+        display: inline-block;
+        padding: 14px 28px;
+        line-height: normal;
+        border: 1px solid;
+        font-size: 13px;
+        letter-spacing: .2em;
+        font-family: Lato,sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        background-color: transparent;
+        transition: 0.5s;
+        z-index: 50;
+        transform: color .45s cubic-bezier(.785,.135,.15,.86),border .45s cubic-bezier(.785,.135,.15,.86);
+}
+.footer-list{
+    display: flex;
+}
+.foot{
+    margin-left: 50px;
+}
+.foot1{
+    margin-left: 140.5px;
+}
+.foot11{
+    margin-left: 166px;
+}
+.foot2{
+    margin-left: 120px;
+}
+.foot3{
+    margin-left: 138px;
+}
+.footer-list li{
+    padding-bottom: 20px;
+    font-size: 14px;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    color: #4a4848;
+    transition: color .2s ease-in-out;
+}
+.footer-list li:hover{
+    cursor: pointer;
+}
+#email{
+    width: 420px;
+    height: 50px;
+}
+.socialss{
+    display: flex;
+    margin-left: 30px;
+    padding-top: 50px;
+}
+.socialss img{
+    height: 17px;
+    padding: 20px;
+    opacity: 0.6;
+}
+.socialss img:hover{
+    cursor: pointer;
+}
+.Boogy{
+    padding-top: 100px;
+    margin-left: 80px 
+}
+.Boogy p{
+    font-size: 14px;
+    font-size: 14px;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    color: #4a4848;
+    opacity: 0.9;
+}
+.Boogy p:hover{
+    cursor: pointer;
+}
+
+
+
+
+/* CART HAMBURGER*/
+.cart{
+    height: 100%;
+    width: 0;
+    position: fixed; 
+    z-index: 1; 
+    right: 0;
+    top: 0;
+    background-color: rgb(178, 176, 176); 
+    background-color: rgb(185, 182, 182); 
+    overflow-x: hidden; 
+    transition: .6s; 
+    align-self: right;
+}
+  
+ 
+.cart-content {
+    position: relative;
+    top: 10%; 
+    width: 80%;
+    margin-top: 20px;
+    padding-left: 60px;
+}
+  
+.cart a {
+    padding: 35px 0px 35px 0px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #ffffff;
+    display: block;
+    font-family: sans-serif;
+    letter-spacing: .2rem;
+    transition: 0.1s;
+}
+
+.cart li{
+    padding: 10px 0px 10px 0px;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 24px;
+    display: block;
+    font-family: sans-serif;
+    opacity: .7;
+    transition: 0.3s;
+}
+  
+.cart .closebtnn {
+    position: absolute;
+    /* top: 10px;  */
+    font-size: 35px;
+    margin-left: 225px;
+    padding-bottom: 450px;
+    color: black;
+    font-weight: lighter;
+}
+.cart-top{
+    display: flex;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}
+.cart-li li{
+    color: black;
+    font-size: 16px;
+    padding-left: 20px;
+}
+.closebtnn:hover{
+    cursor: pointer;
+}
+
+
+.overlayy, .mobilee, .mobilee-insta, .mobileFooter{
+    display: none;
+}
+
+
+
+
+/* RESPONSIVENESS */
+/* SMALL MOBILE */
+@media screen and (max-width: 320px)  {
+    .menu-list{
+        display: none;
+    }
+    #currency, #heart, #search{
+        display: none;
+    }
+    .overlayy{
+        display: contents;
+        height: 70px;
+    }
+    .nav{
+        height: 200px;
+        margin-top: -200px;
+    }
+    .nav-bar{
+        padding-top: 50px;
+        width: 90%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+    }
+    .menu{
+        padding-top: 20px;
+        padding-left: 200px;
+    }
+    .menu img{
+        
+        height: 60px;
+    }
+    .iconss img{
+        height: 80px;
+    }
+    .icon img{
+        padding-top: 15px;
+        height: 60px;
+    }
+    #login{
+        padding-right: 30px;
+    }
+
+    .overlayyy {
+        height: 100%;
+        width: 0;
+        position: fixed; 
+        z-index: 1; 
+        left: 0;
+        top: 0;
+        background-color: rgb(0,0,0); 
+        background-color: rgba(0,0,0, 1); 
+        overflow-x: hidden; 
+        transition: .6s; 
+    }
+      
+     
+      .overlayyy-content {
+        position: relative;
+        top: 10%; 
+        width: 80%;
+        margin-top: 30px;
+        padding-left: 60px;
+      }
+      
+      .overlayyy a {
+        padding: 80px 0px 80px 0px;
+        text-decoration: none;
+        font-size: 50px;
+        color: #ffffff;
+        display: block;
+        font-family: sans-serif;
+        letter-spacing: .5rem;
+        transition: 0.3s;
+      }
+      .dormant{
+        padding-top: 50px;
+      }
+      .overlayyy li{
+        padding: 50px 0px 10px 0px;
+        text-decoration: none;
+        color: #ffffff;
+        font-size: 50px;
+        display: block;
+        font-family: sans-serif;
+        letter-spacing: .3rem;
+        transition: 0.3s;
+      }
+      
+      .overlayyy .closebtn {
+        position: absolute;
+        top: 5px;
+        font-size: 150px;
+        padding-left: 50px;
+        color: white;
+        font-weight: lighter;
+      }
+      .hamButtom{
+        display: flex;
+        padding-top: 100px;
+      }
+      .socialsss img{
+        height: 100px;
+        padding: 20px;
+        opacity: 0.6;
+    }
+    .socialsss img:hover{
+        cursor: pointer;
+    }
+
+
+    .banner1{
+        background-image: url(https://bouguessa.com/cdn/shop/files/BOUGUESSA_HOMEPAGE_V2_3000x1100-min_493722d0-95cd-473e-97bd-ba6e10a4f9b4_1500x.jpg?v=1678452422);
+        /* width: 1029px; */
+        /* height: 1000px; */
+        top: 0;
+        left: 0;
+        width: 640px;
+        height: 850px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        margin-top: 200px;
+        position: inherit;
+    }
+    .banner1 h3, .banner1 h6{
+        font-size: 60px;
+        color: #504f4f;
+        font-family: sans-serif;
+    }
+    .banner2, .banner3, .btnDiv, .insta, .overlay, .pow, .footer-list, .FOOTER, .socials, .Boog{
+        display: none;
+    }
+    .insta{
+        /* padding-left: 500px; */
+    }
+    .mobilee{
+        display: contents;
+    }
+    .banner02{
+        content: url(https://scontent.cdninstagram.com/v/t51.29350-15/376646917_679841323728292_4867264171439626344_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=8ae9d6&_nc_ohc=JGLZVh2IlcwAX_YmefE&_nc_ht=scontent.cdninstagram.com&edm=ANo9K5cEAAAA&oh=00_AfBU74tfiWM7QV__bG750TqTuAzLpgKzBtuMhddMwoo7mQ&oe=65023F49);
+        width: 640px;
+        height: 650px;
+        /* background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center; */ 
+    }
+    .banner01{
+        content: url(https://scontent.cdninstagram.com/v/t51.29350-15/368155970_3486134438318353_4690707239688795227_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=8ae9d6&_nc_ohc=rniMr6nluh4AX9LKHhT&_nc_ht=scontent.cdninstagram.com&edm=ANo9K5cEAAAA&oh=00_AfDK7Gp_vPaYOBORpXX3l1voaFtZ53LiHPXOsk125siB3w&oe=6500992E);
+        width: 640px;
+        height: 650px;
+    }
+    .banner0{
+        content: url(https://scontent.cdninstagram.com/v/t51.29350-15/373847621_1268937630455920_6730631908199600458_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=8ae9d6&_nc_ohc=GurqFChZgIcAX8s8Wfp&_nc_ht=scontent.cdninstagram.com&edm=ANo9K5cEAAAA&oh=00_AfAs_y2c2cMhUC2FuGB-VXHaqi4sjddMVfAwnowjOC-sYQ&oe=650134DC);
+        width: 640px;
+        height: 650px;
+    }
+    .banner03{
+        content: url(https://bouguessa.com/cdn/shop/files/Screen_Shot_2023-09-05_at_3.46.16_PM_65ddbd76-0429-4fb6-b158-617af1f2af41_1000x.png?v=1693916391);
+        width: 640px;
+        height: 650px;
+    }
+    .banner04{
+        content: url(https://bouguessa.com/cdn/shop/files/BOUGESSA0900_a_6ab65e59-787d-43dd-be54-e28a5956f22c_1000x.jpg?v=1694089734);
+        width: 640px;
+        height: 650px;
+    }
+    .banner05{
+        content: url(https://bouguessa.com/cdn/shop/files/Screen_Shot_2023-09-05_at_5.06.53_PM_d3de782e-4c30-4e88-a532-bd527f726a7a_1000x.png?v=1693980857);
+        width: 640px;
+        height: 650px;
+    }
+
+    .mobilee-insta{
+        display: inline-flex;
+        width: 900px;
+        font-size: 60px;
+        margin-left: 280px;
+        padding-bottom: 50px;
+    }
+    .mobilee-insta p{
+        max-width: 400px;
+        padding-left: 250px;
+        /* text-align: center; */
+    }
+    .banner4{
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        
+    }
+    .banner4-img img{
+        height: 320px;
+        width: 320px;
+    }
+    .mobFoot{
+        display: flex;
+        justify-content: space-between;
+        padding-top: 100px;
+    }
+    
+    .mobileFooter{
+        display: inline-block;
+        font-family: sans-serif;
+        /* width: 100%; */
+    }
+    .mobLeft{
+        margin-left: 80px;
+        width: 50%;
+    }
+    .mobLeft li{
+        max-width: max-content;
+        
+    }
+    
+    .mobileFooters{
+        padding-top: 150px;
+        padding-left: 63px;
+        font-family: sans-serif;
+    }
+    .mobFoot li{
+        font-size: 60px;
+        padding-top: 20px;
+        opacity: .7;
+        max-width: 300px ;
+        font-family: sans-serif;
+    }
+    .mobileFooter p{
+        font-size: 60px;
+        letter-spacing: .1rem;
+        opacity: 1;
+        font-family: sans-serif;
+    }
+    .mobRight{
+        padding-top: 30px;
+        width: 50%;
+        padding-left: 250px;
+    }
+    .mobRight li{
+        width: 300px;
+    }
+    
+    .foot3{
+        width: 800px;
+        margin-right: 550px;
+    }
+    .foot3 li{
+        display: inline-flex;
+        font-size: 70px;
+    }
+    #email{
+        width: 500px;
+        height: 200px;
+    }
+    .Boogy p{
+        font-size: 60px;
+        max-width: 800px;
+    }
+    .socialss img{
+        padding-top: 80px;
+        height: 60px;  
+    }
+    .socialss{
+        padding-top: 50px;
+        padding-left: 30px;
+    }   
+}
+
+
+/* RESPONSIVENESS FOR TAB and LARGE MOBILE */
+@media screen and (max-width: 768px) {
+    .menu-list{
+        display: none;
+    }
+    #currency{
+        display: none;
+    }
+    .overlayy{
+        display: contents;
+        height: 70px;
+    }
+    .nav{
+        height: 100px;
+        margin-top: -100px;
+    }
+    .nav-bar{
+        padding-top: 20px;
+        width: 90%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+    }
+    .menu{
+        padding-top: 20px;
+        padding-left: 350px;
+    }
+    .menu img{
+        height: 25px;
+    }
+    .iconss{
+        padding-left: 30px;
+    }
+    .iconss img{
+        height: 35px;
+    }
+    .icon img{
+        padding-top: 15px;
+        height: 25px;
+    }
+    #login{
+        /* padding-right: 30px; */
+    }
+
+    .overlayyy {
+        height: 100%;
+        width: 0;
+        position: fixed; 
+        z-index: 1; 
+        left: 0;
+        top: 0;
+        background-color: rgb(0,0,0); 
+        background-color: rgba(0,0,0, 1); 
+        overflow-x: hidden; 
+        transition: .6s; 
+    }
+      
+     
+      .overlayyy-content {
+        position: relative;
+        top: 10%; 
+        width: 80%;
+        margin-top: 20px;
+        padding-left: 60px;
+      }
+      
+      .overlayyy a {
+        padding: 35px 0px 35px 0px;
+        text-decoration: none;
+        font-size: 20px;
+        color: #ffffff;
+        display: block;
+        font-family: sans-serif;
+        letter-spacing: .2rem;
+        transition: 0.1s;
+      }
+      hr{
+        opacity: .5;
+      }
+      .dormant{
+        padding-top: 40px;
+      }
+      .overlayyy li{
+        padding: 10px 0px 10px 0px;
+        text-decoration: none;
+        color: #ffffff;
+        font-size: 24px;
+        display: block;
+        font-family: sans-serif;
+        opacity: .7;
+        transition: 0.3s;
+      }
+      
+      .overlayyy .closebtn {
+        position: absolute;
+        top: 10px;
+        font-size: 60px;
+        padding-left: 55px;
+        color: white;
+        font-weight: lighter;
+      }
+      .hamButtom{
+        display: flex;
+        padding-top: 100px;
+      }
+      .socialsss img{
+        height: 100px;
+        padding: 20px;
+        opacity: 0.6;
+    }
+    .socialsss img:hover{
+        cursor: pointer;
+    }
+
+
+    .banner1{
+        background-image: url(https://bouguessa.com/cdn/shop/files/BOUGUESSA_HOMEPAGE_V2_3000x1100-min_493722d0-95cd-473e-97bd-ba6e10a4f9b4_1500x.jpg?v=1678452422);
+        /* width: 1029px; */
+        /* height: 1000px; */
+        top: 0;
+        left: 0;
+        width: 1280px;
+        height: 850px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        margin-top: 100px;
+        /* position: inherit; */
+    }
+    .banner1 h3{
+        font-size: 30px;
+        color: black;
+        font-family: sans-serif;
+    }
+    .banner1 h6{
+        font-size: 20px;
+        color: #1C1B1B;
+        font-family: sans-serif;
+    }
+    .banner2, .banner3, .btnDiv, .insta, .overlay, .pow, .FOOTER{
+        display: none;
+    }
+    .mobilee{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    .banner02{
+        content: url(https://scontent.cdninstagram.com/v/t51.29350-15/376646917_679841323728292_4867264171439626344_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=8ae9d6&_nc_ohc=JGLZVh2IlcwAX_YmefE&_nc_ht=scontent.cdninstagram.com&edm=ANo9K5cEAAAA&oh=00_AfBU74tfiWM7QV__bG750TqTuAzLpgKzBtuMhddMwoo7mQ&oe=65023F49);
+        width: 640px;
+        height: 650px; 
+    }
+    .banner01{
+        content: url(https://scontent.cdninstagram.com/v/t51.29350-15/368155970_3486134438318353_4690707239688795227_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=8ae9d6&_nc_ohc=rniMr6nluh4AX9LKHhT&_nc_ht=scontent.cdninstagram.com&edm=ANo9K5cEAAAA&oh=00_AfDK7Gp_vPaYOBORpXX3l1voaFtZ53LiHPXOsk125siB3w&oe=6500992E);
+        width: 640px;
+        height: 650px;
+    }
+    .banner0{
+        content: url(https://scontent.cdninstagram.com/v/t51.29350-15/373847621_1268937630455920_6730631908199600458_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=8ae9d6&_nc_ohc=GurqFChZgIcAX8s8Wfp&_nc_ht=scontent.cdninstagram.com&edm=ANo9K5cEAAAA&oh=00_AfAs_y2c2cMhUC2FuGB-VXHaqi4sjddMVfAwnowjOC-sYQ&oe=650134DC);
+        width: 640px;
+        height: 650px;
+    }
+    .banner03{
+        content: url(https://bouguessa.com/cdn/shop/files/Screen_Shot_2023-09-05_at_3.46.16_PM_65ddbd76-0429-4fb6-b158-617af1f2af41_1000x.png?v=1693916391);
+        width: 640px;
+        height: 650px;
+    }
+    .banner04{
+        content: url(https://bouguessa.com/cdn/shop/files/BOUGESSA0900_a_6ab65e59-787d-43dd-be54-e28a5956f22c_1000x.jpg?v=1694089734);
+        width: 640px;
+        height: 650px;
+    }
+    .banner05{
+        content: url(https://bouguessa.com/cdn/shop/files/Screen_Shot_2023-09-05_at_5.06.53_PM_d3de782e-4c30-4e88-a532-bd527f726a7a_1000x.png?v=1693980857);
+        width: 640px;
+        height: 650px;
+    }
+
+    .mobilee-insta{
+        display: inline-flex;
+        width: 900px;
+        font-size: 30px;
+        margin-left: 330px;
+        padding-bottom: 50px;
+    }
+    .mobilee-insta p{
+        max-width: 400px;
+        padding-left: 250px;
+        font-family: sans-serif;
+    }
+    .banner4{
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        /* overflow-x: scroll; */
+    }
+    .banner4-img img{
+        height: 320px;
+        width: 320px;
+    }
+    
+    .footer-list{
+        padding-top: 100PX;
+    }
+    .footer-list li{
+        font-size: 25px;
+    }
+    .foot1, .foot11, .foot2, .foot3{
+        margin-left: 90px;
+    }
+    .mris{
+        display: none;
+    }
+
+    .socialss{
+        padding-top: 50px;
+    }
+    .socialss img{
+        height: 30px;
+    }
+
+    .Boogy{
+        padding-top: 200px;
+        margin-left: 40px;
+    }
+    .Boogy p{
+        font-size: 20px;
+    }
+}
+
+
+
+
+
+
+
+
+
+  /* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
+      /* @media screen and (max-height: 450px) {
+        .overlay a {font-size: 20px}
+        .overlay .closebtn {
+          font-size: 40px;
+          top: 15px;
+          right: 35px;
+        } */

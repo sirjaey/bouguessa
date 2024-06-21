@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up page</title>
+     <link rel="stylesheet" href="loginPage.css">
+</head>
+<body>
+    <nav class="nav">
+        <div class="nav-bar">
+            <div class="menu-list">
+                <a href="shopPage.html"><li>SHOP</li></a>
+                <div class="mega-menu">
+                    <li class="dropbtn">COLLECTIONS</li>
+                    <div class="mega-menu-content">
+                      <div class="megaImg1">
+                        <img src="https://bouguessa.com/cdn/shop/files/wt_370x230_crop_center@2x.jpg?v=1677062498" alt="">
+                      </div>
+                      <div class="megaImg1">
+                        <img src="https://bouguessa.com/cdn/shop/files/image_menu_370x230_crop_center@2x.jpg?v=1662553790" alt="">
+                      </div>
+                      <div class="megaImg1">
+                        <img src="https://bouguessa.com/cdn/shop/files/bvc_370x230_crop_center@2x.jpg?v=1645105694" alt="">
+                      </div>
+                    </div>
+                </div>
+                <li>ABOUT</li>
+                <li>JOURNAL</li>
+            </div>
+            <div class="menu">
+                <a href="index.html"><img src="https://bouguessa.com/cdn/shop/files/logo-bouguessa_140x.png?v=1613712243" alt=""></a>
+            </div>
+            <div class="menu-left">
+                <select name="" id="currency">
+                    <option value="">USD</option>
+                    <option value="">GBP</option>
+                    <option value="">EUR</option>
+                    <option value="">AED</option>
+                </select>
+                <div class="iconss">
+                    <img src="img/heart.svg" alt="">
+                    <a href="loginPage.html"><img src="img/profile.svg" alt=""></a>
+                    <img src="img/search.svg" alt="search">
+                    
+                </div>
+                <div class="cartPage">
+                    <div id="myNavv" class="cart">
+                        <div class="cart-top">
+                            <div class="cart-li">
+                                <li>CART</li>
+                            </div>
+                            <div>
+                                <p href="javascript:void(0)" class="closebtnn" onclick="closeNavv()">&times;</p>
+                            </div>
+                        </div>
+                        <div class="cart-content">
+                            
+                            
+                            </div>
+                        </div>
+                    </div>
+                    <p href="javascript:void(0)" class="iconn iconss" onclick="openNavv()" ><img src="img/bag.svg" alt=""></p>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="login">
+        <div class="login-form">
+            <li>REGISTER</li>
+            <P>Please fill in the information below:</P>
+            <div class="inpuut">
+                <input type="text" class="enter" id="firstname" placeholder="First name" required>
+            </div>
+            <div class="inpuut">
+                <input type="text" class="enter" id="lastname" placeholder="Last name" required>
+            </div>
+            <div class="inpuut">
+                <input type="text" class="enter" id="email" placeholder="Email" required>
+            </div>
+            <div class="inpuut">
+                <input type="text" class="enter" placeholder="Password" id="pw" required>
+            </div>
+            <div class="inpuut">
+                <button class="enter" onclick="signUp()">CREATE MY ACCOUNT</button>
+            </div>
+            <div id="myDropdownn" class="dropdownn-content">
+                <P>ACCOUNT CREATED SUCCESSFULLY!!!<a href="loginPage.html">LOGIN</a></P>
+            </div>
+            
+            <p id="emailCheck"></p>
+        </div>
+    </div>
+
+
+    <div class="insta">
+        <p>Follow Us</p>
+    </div>
+    <div class="banner4">
+        <div class="banner4-img">
+            <img src="https://pinainstagram.b-cdn.net/bouguessa/instagram-post/3177864068170429050?optimizer=image&width=480" alt="">
+            <div class="overlay">
+                <div class="ovimg">
+                    <img src="img/insta.svg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="banner4-img">
+            <img src="https://pinainstagram.b-cdn.net/bouguessa/instagram-post/3171911529012894304?optimizer=image&width=480" alt="">
+            <div class="overlay">
+                <div class="ovimg">
+                    <img src="img/insta.svg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="banner4-img">
+            <img src="https://pinainstagram.b-cdn.net/bouguessa/instagram-post/3167771061001663394?optimizer=image&width=480" alt="">
+            <div class="overlay">
+                <div class="ovimg">
+                    <img src="img/insta.svg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="banner4-img">
+            <img src="https://pinainstagram.b-cdn.net/bouguessa/instagram-post/3146832373560009495?optimizer=image&width=480" alt="">
+            <div class="overlay">
+                <div class="ovimg">
+                    <img src="img/insta.svg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="banner4-img">
+            <img src="https://bouguessa.com/cdn/shop/products/blackpetrascarf_400x.jpg?v=1676922974" alt="">
+            <div class="overlay">
+                <div class="ovimg">
+                    <img src="img/insta.svg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="FOOTER">
+        <li class="j">SHOP MENU</li>
+        <li class="jj">HELP</li>
+        <li class="jj">NEWSLETTER</li>
+    </div>
+
+    <div class="footer-list">
+        <div class="foot">
+             <li>Coats & Long jackets</li>
+             <li>Skirts</li>
+             <li>Pants</li>
+        </div>
+        <div class="foot1">
+            <li>Dresses</li>
+            <li>Tops</li>
+            <li>Accessories</li>
+        </div>
+        <div class="foot11">
+            <li>Contact</li>
+            <li>My Account</li>
+            <li>Terms & Conditions</li>
+        </div>
+        <div class="foot2">
+            <li>Retailers</li>
+            <li>Privacy Policy</li>
+        </div>
+        <div class="foot3">
+            <li>Sign up for 10% off your next order*</li>
+            <input type="text" id="email" placeholder="Enter your email address">
+            <div class="butn"><button>SUBSCRIBE</button></div>
+        </div>
+    </div>
+
+    <div class="socialss">
+        <img src="img/facebook.svg" alt="">
+        <img src="img/insta.svg" alt="">
+        <img src="img/pintrest.svg" alt="">
+        <img src="img/22ab7b95-8ac0-46a6-b9d7-83b7b4226653.svg" alt="">
+    </div>
+
+    <div class="Boogy">
+        <p>© 2023 BOUGUESSA</p>
+    </div>
+
+
+
+
+
+    <script src="signUpPage.js"></script>
+</body>
+</html>
